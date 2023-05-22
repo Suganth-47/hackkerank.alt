@@ -1,0 +1,9 @@
+.listitem{
+    padding: 0px 20px;
+    border:2px solid black;
+    margin-bottom:20px;
+}
+
+.listitem:hover{
+    background-color: rgb(200, 197, 197);
+}

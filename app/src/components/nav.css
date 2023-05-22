@@ -1,0 +1,43 @@
+.navbar {
+  list-style-type: none;
+  padding: 0;
+  background-color: #f2f2f209;
+  font-weight: bolder;
+  margin: 0px 10px;
+}
+
+ul {
+  border: 2px rgb(36, 36, 36) solid;
+}
+
+.navbar li,
+.navbar li button,
+.navitem {
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #ddd;
+  background-color: transparent;
+  border:none;
+}
+.navbar li button:hover,
+.log_btn:hover {
+  background-color: #a3a3a3;
+  color: black;
+}
+
+img {
+  width: 30px;
+  height: auto;
+}
+
+.navright {
+  float: right;
+  /*  margin-top:15px;*/
+}
+
+.log_btn {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}

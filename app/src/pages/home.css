@@ -1,0 +1,53 @@
+.root{
+  background: url("../icons/bg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  border:5px solid rgb(21, 21, 21);
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.button {
+  margin-top: 15px;
+  background-color: #0066ff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.button2 {
+  margin-top: 15px;
+  background-color: #6c6d6f;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}

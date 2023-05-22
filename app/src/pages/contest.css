@@ -1,0 +1,71 @@
+.root {
+  background: url("../icons/bg.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid rgb(21, 21, 21);
+}
+
+.container-contest {
+  position: relative;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(126, 126, 126, 0.645);
+  padding: 35px;
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(126, 126, 126);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.enroll-btn {
+  width: 50%;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.close-btn {
+  position: absolute;
+  float: right;
+  z-index: 1;
+  top:0;
+  right: 0;
+  margin-right: 20px;
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  padding: 3px 10px;
+  cursor: pointer;
+  background-color: rgba(240, 248, 255, 0.5);
+  border: none;
+}
+
+.close-btn:hover{
+  background-color: rgba(255, 255, 255, 0.711);
+}
+
+.conname {
+  font-size: 3rem;
+}
+
+.condesc {
+  margin: 50px 0px;
+}
